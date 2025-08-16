@@ -1,27 +1,40 @@
-.body{
-  background-color: antiquewhite;
+.conteiner{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;              
+  flex-wrap: wrap;            
+  flex-direction: row;        
+  justify-content: center;    
+
 }
-.h1{
-  color: pink;
+
+.titulo{
+  align-items: center;
   font-size:60px ;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   padding: auto;
 
 }
-.card {
-  background-color: palegoldenrod;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 8px;
+.conteiner2{
+  display: flex;              
+  flex-wrap: wrap;            
+  flex-direction: row;        
+  justify-content: center;    
+  gap:40px;                  
+  padding: 20px;       
+  height:250px ;
+  width: none;
+
 }
 
-.card img {
-width: 180px;
-height: 190px;
-background: rgb(255, 255, 255);
-padding: 50px;
-border: none;
-border-radius: 10px;
+.rodape{
+  display: flex;              
+  flex-direction: row;        
+  justify-content:center;   
+  align-items: flex-end; 
+  gap:40px;          
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
