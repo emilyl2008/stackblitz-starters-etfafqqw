@@ -1,6 +1,23 @@
 import Image from 'next/image';
-
+//js aqui
 export default function Home() {
+  //js aqui
+
+  class Pessoa {
+    constructor(nome, idade) {
+      this.nome = nome;
+      this.idade = idade;
+    }
+  
+  
+  
+  
+    saudacao() {
+      console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+    }
+  }
+  
+
 
 
   return (
@@ -50,9 +67,9 @@ export default function Home() {
       
       </div>
 
-      <footer className="rodape">
-      <p>Integrantes: Emily,Evilyn,gabriel    Turma:2003 </p>
-    </footer>
+      <div className="rodape">
+        <p>Integrantes: Emily,Evilyn, gabriel    Turma:2003 </p>
+      </div>
 
    </div>
   );
