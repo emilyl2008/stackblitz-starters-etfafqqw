@@ -3,6 +3,12 @@ body{
 }
 
 .conteiner{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  margin: 0;
+}
+
+.conteiner{
   display: flex;              
   flex-wrap: wrap;            
   flex-direction: row;        

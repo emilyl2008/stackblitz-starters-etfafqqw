@@ -20,7 +20,6 @@ export default function Home() {
 
 
 
-
   return (
    <div className='conteiner'>
      
@@ -28,7 +27,7 @@ export default function Home() {
     
      <img className='img' src="logodoce.jpg" alt="" />
 
-<div className='conteiner2'>
+    <div className='conteiner2'>
 
       <div className="produto">
         <img src="doce1.jpg" alt="250" />
