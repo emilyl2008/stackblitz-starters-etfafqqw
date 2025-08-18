@@ -1,12 +1,17 @@
-.conteiner{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
+body{
   margin: 0;
-  padding: 0;
+}
+
+.conteiner{
   display: flex;              
   flex-wrap: wrap;            
   flex-direction: row;        
   justify-content: center;    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+
 
 }
 
@@ -16,8 +21,8 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   padding: auto;
-
 }
+
 .conteiner2{
   display: flex;              
   flex-wrap: wrap;            
@@ -25,16 +30,18 @@
   justify-content: center;    
   gap:40px;                  
   padding: 20px;       
-  height:250px ;
-  width: none;
-
 }
 
 .rodape{
-  display: flex;              
-  flex-direction: row;        
-  justify-content:center;   
-  align-items: flex-end; 
-  gap:40px;          
+  display: flex;
+  /* background: rgb(255, 255, 255); */
+  background-color: gray;
+  padding: 1px;
+  height: 32px;
+  text-align: center;
+  align-items: center;
+  border: none;
+  gap: 15px;          
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
 }
